@@ -3,7 +3,7 @@
 
   "name": "sort-tabs",
   "description": "Simple Chrome extension to sort the tabs in a window",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "16":  "icon16.jpg",
     "48":  "icon48.jpg",
@@ -11,8 +11,10 @@
   },
 
   "browser_action": {
-    "default_icon": "icon48.jpg",
-    "default_popup": "popup.html"
+    "default_icon": "icon48.jpg"
+  },
+  "background": {
+    "scripts": ["sort-tabs.js"]
   },
 
   "permissions": [
